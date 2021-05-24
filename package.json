@@ -1,0 +1,26 @@
+{
+  "name": "Lab8",
+  "version": "1.0.0",
+  "description": "1. In your own words: Where would you fit your automated tests in your Bujo project development pipeline? (just write the letter)\r 1\r 2. Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.\r No: the message feature is relatively big and would require multiple parts to be put together, and unit testing cannot test individual components when we are testing a feature.\r 3. Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters\r Yes: since we are just testing the max message length, we are able to use unit testing to debug a small scale issue.\r 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "jest -- coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JGuo24/Lab8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JGuo24/Lab8/issues"
+  },
+  "homepage": "https://github.com/JGuo24/Lab8#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
